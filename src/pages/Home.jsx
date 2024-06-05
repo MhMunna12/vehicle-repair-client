@@ -5,6 +5,8 @@ import { useLoaderData } from 'react-router-dom';
 import Services from '../components/Home/Services';
 import ServiceArea from '../components/ServiceArea';
 import Expert from '../pages/Expert'
+import Accordion from '../components/Accordion';
+import About from '../components/About';
 
 const Home = () => {
     // const services = useLoaderData();
@@ -16,6 +18,7 @@ const Home = () => {
             <ServiceArea />
             <Expert />
 
+            <About />
         </div>
     );
 };

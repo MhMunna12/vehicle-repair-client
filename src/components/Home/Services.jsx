@@ -19,7 +19,11 @@ const Services = () => {
     return (
         <div className='my-16'>
             <div className='mb-5  p-2 text-center '>
-                <h1 className='text-3xl font-bold'>Our Services</h1>
+
+                <div className="text-center">
+                    <h1 className='text-5xl font-bold'>Our Services</h1>
+                    <div className="divider divider-accent max-w-[380px] mx-auto"></div>
+                </div>
                 <p>the majority have suffered alteration in some form, by injected humour, or randomised <br /> words which dont look even slightly believable. </p>
                 <div className="join mt-5">
                     <div>

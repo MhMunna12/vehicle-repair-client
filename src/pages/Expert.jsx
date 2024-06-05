@@ -32,7 +32,11 @@ const Engineer = () => {
     return (
         <div className='text-center p-5 mt-10'>
 
-            <h1 className="text-5xl font-bold">Our Expert</h1>
+
+            <div className="text-center">
+                <h1 className="text-5xl font-bold">Our Expert</h1>
+                <div className="divider divider-accent max-w-[320px] mx-auto"></div>
+            </div>
             <p className="py-6">the majority have suffered alteration in some form, by injected humour,  or randomised words <br /> which dont look even slightly believable. </p>
             <div className="grid gap-x-8 gap-y-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 {

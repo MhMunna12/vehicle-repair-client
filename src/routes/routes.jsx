@@ -13,6 +13,7 @@ import AddServices from "../pages/AddServices";
 import AllService from "../pages/AllService";
 import EditService from "../pages/EditService";
 import EditProfile from "../pages/EditProfile";
+import About from "../components/About";
 
 
 
@@ -27,6 +28,10 @@ export const router = createBrowserRouter([
                 path: "/",
                 element: <Home />,
                 // loader: () => fetch('https://vehicle-repair-server.onrender.com/services')
+            },
+            {
+                path: "/about",
+                element: <About />,
             },
             {
                 path: "/service/:id",

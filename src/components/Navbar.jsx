@@ -52,6 +52,7 @@ const Navbar = () => {
                                 </li>
                             </>
                         )}
+
                         {user && (
                             <li>
                                 <Link to={"/dashboard"}>Dashboard</Link>
@@ -89,6 +90,7 @@ const Navbar = () => {
                             </li>
                         </>
                     )}
+
                     {user && (
                         <li>
                             <Link to={"/dashboard"}>Dashboard</Link>
