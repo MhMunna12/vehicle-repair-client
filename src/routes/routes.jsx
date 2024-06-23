@@ -5,6 +5,7 @@ import Dashboard from "../pages/Dashboard";
 import DashboardLayout from './../layout/DashboardLayout';
 import ErrorPage from './../pages/ErrorPage';
 import Login from "../pages/Login";
+
 import Registration from "../pages/Registration";
 import MainLayout from './../layout/MainLayout';
 import ServiceDetail from "../pages/ServiceDetail";
@@ -14,6 +15,7 @@ import AllService from "../pages/AllService";
 import EditService from "../pages/EditService";
 import EditProfile from "../pages/EditProfile";
 import About from "../components/About";
+
 
 
 
@@ -33,6 +35,7 @@ export const router = createBrowserRouter([
                 path: "/about",
                 element: <About />,
             },
+
             {
                 path: "/service/:id",
                 element: <ServiceDetail />,
